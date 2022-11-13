@@ -1,0 +1,88 @@
+.add-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s {
+    margin-bottom: 10px;
+}
+
+.item-image{
+    margin-left: 100px;
+}
+
+.hr{
+    margin: 0;
+}
+
+.cont{
+    margin-left: 100px;
+}
+
+.create-btn{
+    margin-top: 20px;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: rgb(52, 52, 255);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: blue;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: solid 1px black;
+  }
+
+input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+
+.form-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+.error{
+    color: red;
+    font-size: 10px;
+}
+
+.back{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+}

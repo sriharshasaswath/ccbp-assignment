@@ -1,0 +1,60 @@
+.card-img{
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    margin-left: 12px;
+    border: solid 1px #D7DFE9;
+    margin-top: 12px;
+}
+
+.img-container{
+    display: flex;
+    
+}
+
+.category{
+    color: #7E858E;
+}
+
+.card-item{
+    width: 400px;
+    border: solid 1px #D7DFE9;
+    display: inline-block; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.para{
+    margin: 0;
+    margin-top: 12px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.desc{
+    font-size: 12px;
+}
+
+.link{
+    color: #0B69FF;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.desc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
